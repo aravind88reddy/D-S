@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block body %}
+
+<form method='post'>
+<input type="text" name="in_1" placeholder="Enter original URL">
+<button>Shorten</button><br> <br>
+   <h>shortened url = {{short_url}} </h>
+   <button>copy url</button>
+</form>
+
+
+{% endblock %}
